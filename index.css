@@ -9,7 +9,7 @@ h1 {
 }
 
 .menu {
-  margin: 20px 0px 30px 0px;
+  margin-top: 20px;
   display: block;
   width: 200px;
   height: 200px;
@@ -46,6 +46,8 @@ h1 {
   background: #2A2A30;
   color: #E1CD94;
   text-decoration: none;
+  text-align: center;
+
 }
 
 #breakT {
@@ -62,6 +64,7 @@ h1 {
   background: #2A2A30;
   color: #E1CD94;
   text-decoration: none;
+  text-align: center;
 }
 
 #sessionMinus {
@@ -72,6 +75,7 @@ h1 {
   background: #2A2A30;
   color: #E1CD94;
   text-decoration: none;
+  text-align: center;
 }
 
 #sessionT {
@@ -88,4 +92,5 @@ h1 {
   background: #2A2A30;
   color: #E1CD94;
   text-decoration: none;
+  text-align: center;
 }
