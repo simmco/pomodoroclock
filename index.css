@@ -1,13 +1,91 @@
 body {
-background-color:rgb(170,250,350);
+  background-color: #E0E6EB;
+  color: #3E4838;
 }
-#circle {
-  border: 3px solid black;
-	border-radius: 50%;
-  background:orange;
-	width: 200px;
-	height: 200px;
-  color:green;
 
-	/* width and height can be anything, as long as they're equal */
+h1 {
+  margin: 20px 0px 50px 0px;
+
+}
+
+.menu {
+  margin: 20px 0px 30px 0px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  font-size: 20px;
+  color: #7D7A7B;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  background: #2A2A30;
+}
+
+.menu:hover {
+  color: #ccc;
+  text-decoration: none;
+  background: #333
+}
+
+#session {
+  color: #E1CD94;
+  font-size: 20px;
+}
+
+#timer {
+  color: #E1CD94;
+  font-size: 25px;
+}
+
+#breakMinus {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #2A2A30;
+  color: #E1CD94;
+  text-decoration: none;
+}
+
+#breakT {
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  font-size: 25px;
+}
+
+#breakPlus {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #2A2A30;
+  color: #E1CD94;
+  text-decoration: none;
+}
+
+#sessionMinus {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #2A2A30;
+  color: #E1CD94;
+  text-decoration: none;
+}
+
+#sessionT {
+  display: inline-block;
+  padding: 10px 15px 10px 15px;
+  font-size: 25px;
+}
+
+#sessionPlus {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: #2A2A30;
+  color: #E1CD94;
+  text-decoration: none;
 }
